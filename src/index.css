@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/calibre');
+body{
+    font-family:'Calibre', sans-serif;
+    
+}
+/* * {
+    outline: 1px solid #f00 !important;
+  } */
+
+.navigation ul li:hover a{
+    color:'#6DF6A3' ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#navicon:checked ~#nav-small-device{
+    top: 80px;
+}
+
+.social-links::after{
+    content: '';
+    width: 1px;
+    height: 90px;
+    background:#a1a1b3;
+    position: fixed;
+    left: 60px;
+    bottom: 0;
+}
+.email-side::after{
+    content: '';
+    width: 1px;
+    height: 90px;
+    background:#a1a1b3;
+    position: fixed;
+    right: 60px;
+    bottom: 0;
+
 }
