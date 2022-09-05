@@ -4,8 +4,8 @@ import myImage from '../assets/image/hasan-imam.png'
 const Banner = () => {
     return (
         <section id='#banner' className='bg-bg-primary pt-16 lg:pt-0'>
-            <div className="container mx-auto">
-                <div className="lg:flex justify-between gap-x-5 px-4 sm:px:7 md:px-12 lg:px-20  pb-3 ">
+            <div className="container mx-auto ">
+                <div className="lg:flex justify-between gap-x-5 px-10  md:px-12 lg:px-20  pb-3 ">
                     {/* banner text */}
                     <div className="lg:w-1/2  flex items-center ">
                         <div className='lg:pl-5'>
