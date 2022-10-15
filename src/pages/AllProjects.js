@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SingleProjectDetails = () => {
+const AllProjects = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const SingleProjectDetails = () => {
     );
 };
 
-export default SingleProjectDetails;
+export default AllProjects;
