@@ -21,9 +21,9 @@ const Projects = () => {
                     <div className='lg:flex h-screen items-center group transition-all ease-linear duration-1000 order-2 lg:order-1'>
                         <div className="project_details my-auto  text-white ">
                             <div className='p-5'>
-                                <h5 className='text-sm tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
-                                <h3 className='text-5xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>MedicPro </h3>
-                                <h5 className='text-xl mb-5 max-w-xl'>Fully Responsive, Reusable and Dynamic MERN Stack project for a Pediatric Clinic </h5>
+                                <h5 className='text-xs tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
+                                <h3 className='text-3xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>MedicPro </h3>
+                                <h5 className=' mb-3 mt-2 max-w-xl'>Fully Responsive, Reusable and Dynamic MERN Stack project for a Pediatric Clinic </h5>
 
                                 {/* features are here */}
                                 <ul className='text-accent bg-bg-secondary rounded lg:p-5 pr-10 lg:-mr-20 relative  z-10'>
@@ -46,57 +46,57 @@ const Projects = () => {
                                 {/* technologies used */}
                                 <ul className='lg:max-w-3xl flex flex-wrap gap-3 my-4'>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># MongoDB</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Express</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Node JS</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Tailwind</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Firebase</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># JWT</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Stripe</p>
                                     </li>
 
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># DaisyUI</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React-Query</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React-Hook-Form</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p>And so on...</p>
                                     </li>
                                 </ul>
                                 {/* links are here */}
                                 <ul className=' flex  mt-6 gap-x-4 lg:gap-x-10 text-lg'>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://medicpro-aa457.web.app/" target='_blank'> <img src={webicon} alt="" className='w-6 mr-3 inline-block' />Live-site-link</a>
                                     </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://github.com/md-hasan-imam/medicpro-clinic-website" target='_blank'><img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Client-site</a>
                                     </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href='https://github.com/md-hasan-imam/medic-pro-server-side' target='_blank'>
                                             <img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Server-sit</a>
                                     </li>
@@ -119,9 +119,9 @@ const Projects = () => {
                         </div>
                         <div className="project_details my-auto  text-white">
                             <div className='p-5'>
-                                <h5 className='text-sm tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
-                                <h3 className='text-5xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>Automa </h3>
-                                <h5 className='text-xl mb-5 max-w-xl'>Car Parts Manufacturer's Dynamic MERN Stack website. </h5>
+                                <h5 className='text-xs tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
+                                <h3 className='text-3xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>Automa </h3>
+                                <h5 className=' mb-3 mt-2 max-w-xl'>Car Parts Manufacturer's Dynamic MERN Stack website. </h5>
 
                                 {/* features are here */}
                                 <ul className='text-accent bg-bg-secondary rounded lg:p-5 pr-10 lg:-ml-20 relative  z-10'>
@@ -137,59 +137,59 @@ const Projects = () => {
                                 </ul>
                                 {/* technologies used */}
                                 <ul className='lg:max-w-3xl flex flex-wrap gap-3 my-4 justify-end'>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># HTML5</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># CSS3</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Tailwind</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># DaisyUI</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># JavaScript</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Node JS</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Express</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Heroku</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># MongoDB</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React-Query</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># React-Hook-Form</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Firebase</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p>And so on...</p>
                                     </li>
                                 </ul>
                                 {/* links are here */}
                                 <ul className=' flex  mt-6 gap-x-4 lg:gap-x-10 text-lg justify-end'>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://automa-car-parts-manufacturer.web.app/" target='_blank'> <img src={webicon} alt="" className='w-6 mr-3 inline-block' />Live-site-link</a>
                                     </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://github.com/md-hasan-imam/manufacturing-company-website-client-side" target='_blank'><img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Client-site</a>
                                     </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href='https://github.com/md-hasan-imam/manufacturing-website-server-side' target='_blank'>
                                             <img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Server-sit</a>
                                     </li>
@@ -207,70 +207,63 @@ const Projects = () => {
                     <div className='lg:flex h-screen items-center group transition-all ease-linear duration-1000 order-2 lg:order-1'>
                         <div className="project_details my-auto  text-white ">
                             <div className='p-5'>
-                                <h5 className='text-sm tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
-                                <h3 className='text-5xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>Gymnasium </h3>
-                                <h5 className='text-xl mb-5 max-w-xl'>Fully Responsive, Reusable and Dynamic MERN Stack project for a Pediatric Clinic </h5>
+                                <h5 className='text-xs tracking-widest text-primary mb-3 ml-1 group-hover:text-accent '>Featured Project</h5>
+                                <h3 className='text-3xl text-accent font-bold group-hover:text-primary transition-all ease-in duration-300 '>Gymnasium </h3>
+                                <h5 className=' mb-3 mt-2 max-w-xl'>Pixel perfect, fully responsive Gymnasium landing page</h5>
 
                                 {/* features are here */}
                                 <ul className='text-accent bg-bg-secondary rounded lg:p-5 pr-10 lg:-mr-20 relative  z-10'>
                                     <li>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px]  inline-block' />
-                                        <p className='inline'>Single page application where only an authentic user can book
-                                            an appointment for different treatments at different time slots.</p>
+                                        <p className='inline'>Nice responsive landing page</p>
                                     </li>
                                     <li className='my-3'>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px]  inline-block' />
-                                        <p className='inline'>The user can see all his appointments in his dashboard. A payment option for due
-                                            appointments & visualization of Transaction id after payment is also applied.</p>
+                                        <p className='inline'>The user can see training schedule in different days of the week.</p>
                                     </li>
                                     <li>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px] inline-block' />
-                                        <p className='inline'>Developed admin functionalities to add a new doctor or remove a doctor. Only
-                                            Admin holds the right to make other admin.</p>
+                                        <p className='inline'>Applied jQery to look more realistic and eyecatching</p>
                                     </li>
                                 </ul>
                                 {/* technologies used */}
                                 <ul className='lg:max-w-3xl flex flex-wrap gap-3 my-4'>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># SASS</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># jQuery</p>
                                     </li>
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># Bootstrap</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># HTML5</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p># CSS3</p>
                                     </li>
 
-                                    <li className='px-3 text-black bg-primary-light  rounded '>
+                                    <li className='px-3 text-sm text-black bg-primary-light  rounded '>
                                         <p>And so on...</p>
                                     </li>
                                 </ul>
                                 {/* links are here */}
                                 <ul className=' flex  mt-6 gap-x-4 lg:gap-x-10 text-lg'>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://medicpro-aa457.web.app/" target='_blank'> <img src={webicon} alt="" className='w-6 mr-3 inline-block' />Live-site-link</a>
                                     </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
+                                    <li className='hover:text-primary text-base transition-all ease-in duration-200'>
                                         <a href="https://github.com/md-hasan-imam/medicpro-clinic-website" target='_blank'><img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Client-site</a>
-                                    </li>
-                                    <li className='hover:text-primary transition-all ease-in duration-200'>
-                                        <a href='https://github.com/md-hasan-imam/medic-pro-server-side' target='_blank'>
-                                            <img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Server-sit</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         {/* project images are here */}
-                        <div className="lg:w-full project_image rounded  grayscale group-hover:grayscale-0 transition-all ease-in duration-300">
+                        <div className="lg:w-1/2 project_image rounded  grayscale group-hover:grayscale-0 transition-all ease-in duration-300">
                             <img src={gymProprojectImg} alt="" className='w-full rounded' />
                         </div>
                     </div>

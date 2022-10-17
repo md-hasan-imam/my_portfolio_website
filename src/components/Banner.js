@@ -1,16 +1,18 @@
 import React from 'react';
 import myImage from '../assets/image/hasan-imam.png'
+import codingBannerImg from '../assets/image/Programming.gif';
+
 
 const Banner = () => {
     return (
-        <section id='#banner' className='bg-bg-primary pt-16 lg:pt-0'>
+        <section id='#banner' className='bg-bg-primary py-20'>
             <div className="container mx-auto ">
                 <div className="lg:flex justify-between gap-x-5 px-10  md:px-12 lg:px-20  pb-3 ">
                     {/* banner text */}
                     <div className="lg:w-1/2  flex items-center ">
                         <div className='lg:pl-5'>
                             <h5 className='text-5xl font-semibold text-accent'>HELLO!</h5>
-                            <h1 className='text-6xl mt-3 mb-2 font-semibold text-secondary'>I AM HASAN IMAM</h1>
+                            <h1 className='text-6xl mt-3 mb-2 font-semibold text-secondary'>I AM HASAN</h1>
                             <h3 className='text-lg tracking-wide text-accent'>A Passionate web-developer with the knowledge of ReactJs, Redux, Typescript, ExpressJs, Nodejs, MongoDB and so on.</h3>
                             {/* Front-End Developer, Full-Stack Developer, <span className='text-primary'>MERN-Stack Developer,</span>   */}
 
@@ -26,7 +28,7 @@ const Banner = () => {
                     </div>
                     {/* banner image */}
                     <div className="w-3/5 lg:w-2/5 lg:ml-auto ">
-                        <img src={myImage} alt="" className='w-full mb-[-0.7rem] ' />
+                        <img src={codingBannerImg} alt="" className='w-4/5' />
                     </div>
                 </div>
             </div>
