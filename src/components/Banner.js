@@ -1,5 +1,4 @@
 import React from 'react';
-import myImage from '../assets/image/hasan-imam.png'
 import codingBannerImg from '../assets/image/Programming.gif';
 
 

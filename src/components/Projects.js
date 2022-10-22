@@ -215,11 +215,11 @@ const Projects = () => {
                                 <ul className='text-accent bg-bg-secondary rounded lg:p-5 pr-10 lg:-mr-20 relative  z-10'>
                                     <li>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px]  inline-block' />
-                                        <p className='inline'>Nice responsive landing page</p>
+                                        <p className='inline'>Pixel perfect fully responsive landing page</p>
                                     </li>
                                     <li className='my-3'>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px]  inline-block' />
-                                        <p className='inline'>The user can see training schedule in different days of the week.</p>
+                                        <p className='inline'>User can see training schedule in different days of the week.</p>
                                     </li>
                                     <li>
                                         <img src={arrowicon} alt="" className='w-5 mr-2 mb-[2px] inline-block' />
@@ -254,10 +254,10 @@ const Projects = () => {
                                 {/* links are here */}
                                 <ul className=' flex  mt-6 gap-x-4 lg:gap-x-10 text-lg'>
                                     <li className='hover:text-primary text-base transition-all ease-in duration-200'>
-                                        <a href="https://medicpro-aa457.web.app/" target='_blank'> <img src={webicon} alt="" className='w-6 mr-3 inline-block' />Live-site-link</a>
+                                        <a href="https://gymnasiumland.netlify.app" target='_blank'> <img src={webicon} alt="" className='w-6 mr-3 inline-block' />Live-site-link</a>
                                     </li>
                                     <li className='hover:text-primary text-base transition-all ease-in duration-200'>
-                                        <a href="https://github.com/md-hasan-imam/medicpro-clinic-website" target='_blank'><img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Client-site</a>
+                                        <a href="https://github.com/md-hasan-imam/gymnasium-website" target='_blank'><img src={githubicon} alt="" className='w-7 mr-3 inline-block' />Client-site</a>
                                     </li>
                                 </ul>
                             </div>
